@@ -1,47 +1,46 @@
 # 📦 Docker YouTube
 
-> 🐳 Docker + ⚛️ React + 📹 YouTube Clone | Features: 🎥 Video Streaming, 🔍 Search, 📁 Upload, 🧠 Recommendations | Tools: Axios ⚡, Tailwind 🎨, Node.js 🌐, MongoDB 🍃
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+> 🐳 A full-stack YouTube clone built with Docker, React, and Node.js. Stream, search, and upload videos in a containerized environment.
 
 ---
 
-## 🚀 Available Scripts
+## 1️⃣ Introduction
 
-In the project directory, you can run:
-
-### `npm start`  
-▶️ Starts the app in development mode.  
-Visit: [http://localhost:3000](http://localhost:3000)
+**Docker YouTube** is a lightweight YouTube clone built using modern web technologies and packaged using Docker for seamless deployment. This project demonstrates how microservices, React frontend, and containerized deployment work together in a real-world app.
 
 ---
 
-### `npm test`  
-🧪 Runs the test runner in watch mode.  
-[CRA test docs →](https://facebook.github.io/create-react-app/docs/running-tests)
+## 2️⃣ Purpose
+
+- 🎯 To understand how to containerize a full-stack React application using Docker.
+- 🚀 To demonstrate a basic yet functional YouTube-like frontend application.
+- 💻 To provide hands-on experience with React + Docker integration.
 
 ---
 
-### `npm run build`  
-🏗 Builds the app for production into the `build/` folder.  
-Optimized for best performance.  
-[Deployment guide →](https://facebook.github.io/create-react-app/docs/deployment)
+## 3️⃣ Features
+
+- 🎥 Watch embedded YouTube-style videos
+- 🔍 Search video content (mocked or live API)
+- ⬆️ Upload your own videos (extendable with backend)
+- 🧭 Navigate through a dynamic video list
+- ⚙️ Built-in Docker support for easy setup and deployment
 
 ---
 
-### `npm run eject`  
-⚙️ Copies the config (Webpack, Babel, ESLint, etc.) into your project so you can customize.  
-**Note**: Ejecting is permanent.
+## 4️⃣ Setup Instructions
+
+### 🔧 Prerequisites
+
+- Node.js & npm installed
+- Docker installed and running
 
 ---
 
-## 🐳 Docker Setup
-
-To build and run with Docker:
+### 🖥️ Local Setup (Without Docker)
 
 ```bash
-# Build Docker image
-docker build -t docker-youtube .
-
-# Run container
-docker run -p 3000:3000 docker-youtube
+git clone https://github.com/swapnilk1806/docker-youtube.git
+cd docker-youtube
+npm install
+npm start
